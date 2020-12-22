@@ -1,50 +1,32 @@
-import './App.css';
-import React, { Component } from 'react';
-import { CardList } from './components/card-list/card-list'
-
+import "./App.css";
+import React, { Component } from "react";
+import { CardList } from "./components/card-list/Card-list";
 
 class App extends Component {
   constructor() {
     super();
 
     this.state = {
-      contacts: [
-        {
-          name: "Frankie",
-          id: 1,
-        },
-        {
-          name: "Todd",
-          id: 2,
-        },
-        {
-          name: "John",
-          id: 3,
-        },
-      ],
+      contacts: [],
     };
   }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(res => res.json())
-      .then(contacts => {
-        this.setState({ contacts })
-        console.log(this.state.contacts)
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((contacts) => {
+        this.setState({ contacts });
       })
-      .catch(err => console.error(err))
+      .catch((err) => console.error(err));
   }
 
   render() {
     return (
       <div className="App">
-      <CardList contacts={this.state.contacts} />
+        <CardList contacts={this.state.contacts} />
       </div>
     );
   }
-
-
 }
-
 
 export default App;

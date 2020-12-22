@@ -1,6 +1,6 @@
-import React from 'react';
-import { Card } from '../card/card'
-import './card-list.css'
+import React from "react";
+import { Card } from "../card/Card";
+import "./card-list.css";
 
 export const CardList = (props) => {
   return (
@@ -10,4 +10,4 @@ export const CardList = (props) => {
       ))}
     </div>
   );
-}
+};
