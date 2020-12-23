@@ -1,0 +1,11 @@
+.search {
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  line-height: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px gray;
+  margin-top: 20px;
+}
