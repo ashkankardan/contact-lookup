@@ -33,7 +33,7 @@ Try the application live at https://ashkankardan.github.io/contact-lookup/
     git clone https://github.com/ashkankardan/contact-lookup.git
     cd contact-lookup
     ```
-2. Install all dependencies with npm.
+2. Install all dependencies with Yarn.
 
     ```shell
     yarn install
