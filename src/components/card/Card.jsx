@@ -7,7 +7,7 @@ export const Card = (props) => (
       <img
         className="contact-img"
         alt={props.contact.name}
-        src={`https://robohash.org/${props.contact.id}?set=set2&size=180x180`}
+        src={`https://robohash.org/${props.contact.id}?set=set1&size=180x180`}
       />
       <h2>{props.contact.name}</h2>
       <h4>{props.contact.email}</h4>
