@@ -18,7 +18,7 @@ A mobile responsive web app to search for contacts and dislay the result dynamic
 ### Live Demo
 Try the application live at https://ashkankardan.github.io/contact-lookup/
 
-# Features
+### Features
 * User can see all contacts
 * User can search for a contact
 
