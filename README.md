@@ -23,7 +23,7 @@ Try the application live at https://ashkankardan.github.io/contact-lookup/
 * User can search for a contact
 
 ### Preview
-![Contact Lookup preview](./src/img/contact-lookup.gif | width=200)
+![Contact Lookup preview]("./src/img/contact-lookup.gif" width=200)
 
 ### Getting Started
 
